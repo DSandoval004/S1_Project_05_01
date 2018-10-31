@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/* filled in information */
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 3
@@ -14,6 +14,7 @@
 */
 
 /* Window and Body Styles */
+/* set the height of the html. Made the body takeup 95% of the page, and made it so it had a min and max width, and set the margins and min height. Made the header, ul, nav, li, a have a border box. */
 html {
     height: 100%;
 }
@@ -37,6 +38,7 @@ a {
 }
 
 /* Row Styles */
+/* set up style to have rows. */
 .row::after {
     clear: both;
     content: "";
@@ -44,6 +46,7 @@ a {
 }
 
 /* Page Header Styles */
+/* Made the header image take up 70% of the header and float left. */
 header.row img {
     display: block;
     width: 70%;
@@ -51,6 +54,7 @@ header.row img {
 }
 
 /* Horizontal Navigation List Styles */
+/* set up the header navigation bar so it would be horizontal, and display nicely. */
 body header.row nav {
     float: left;
     padding: 0% 2%;
@@ -70,6 +74,7 @@ nav.horizontal li {
 }
 
 /* Topics Styles */
+/* set up the unorder list that has the topics to be horizontal, then made it have space between the end list items and the sides of the body. then made the images appear in the senter of the list items. */
 body ul#topics li {
     display: block;
     width: 20%;
@@ -93,11 +98,13 @@ body ul#topics li img {
 }
 
 /* HR Styles */
+/* made the Horizontal Rule take up only half the page. */
 hr {
     width: 50%;
 }
 
 /* Customer Comment Styles */
+/* Put the comment into two columns. Then resized the images to fit better. Spaced out each comment. and set the images to be center on the list item. */
 body ul#comments {
     width: 75%;
     margin: 40px auto;
@@ -124,6 +131,7 @@ body ul#comments li p {
 }
 
 /* Footer Styles */
+/* sets the footer on its own row */
 footer {
     clear: both;
 }
